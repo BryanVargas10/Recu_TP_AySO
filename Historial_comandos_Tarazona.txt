@@ -1,0 +1,228 @@
+ostnamectl --help
+hostnamectl --help
+hostnamectl status
+whoami
+pwd
+echo $HOME
+ls
+cd/
+pwd
+ls
+mkdir CarpetaPrueba
+cd CarpetaPrueba
+touch archivo.txt
+ls
+cat > archivo.txt
+cd ~/CarpetaPrueba
+cat > archivo.txtcat archivo.txt
+exit
+cacaaaat   >t <chtd
+pwd
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+cd UTN-FRA_SO_Examenes
+./script_Precondicion.sh
+chmod +x script_Precondicion.sh
+./script_Precondicion.sh
+source ~/.bashrc && history -a
+pwd
+cd ~
+pwd
+git clone https://github.com/BryanVargas10/Recu_TP_AySO.git
+cd Recu_TP_AySO
+pwd
+nano README.md
+cd ~/Recu_TP_AySO
+ls
+cat README.md
+git add README.md
+git commit -m "Agrego README con datos del alumno"
+git config --global user.name "Bryan Tarazona"
+git config --global user.email "briantarazona10@gmail.com"
+git add README.md
+git commit -m "Agrego README con datos del alumno"
+git push origin main
+vagrant ssh
+~pwd  # para confirmar que estás en /home/vagrant/Recu_TP_AySO
+~cat README.md
+~~~vagrant@VMPruebas:~/Recu_TP_AySO$ git config --global user.name "Bryan Tarazona"
+git config --global user.email "briantarazona10@gmail.com"
+[main 80a163a] Agrego README con datos del alumno
+vagrant@VMPruebas:~/Recu_TP_AySO$ git push origin main
+Password for 'https://BryanVargas10@github.com':
+fatal: Authentication failed for 'https://github.com/BryanVargas10/Recu_TP_AySO.git/'
+$ vagrant ssh
+Command 'vagrant' not found, but can be installed with:
+apt install vagrant
+Please ask your administrator.
+vagrant@VMPruebas:~/Recu_TP_AySO$ ~pwd  # para confirmar que estás en /home/vagrant/Recu_TP_AySO
+Command '~pwd' not found, did you mean:
+Command '~cat' not found, but there are 17 similar ones.
+cd ~/Recu_TP_AySO
+pwd
+ls
+cat README.md
+git config --global user.name "Bryan Tarazona"
+git config --global user.email "briantarazona10@gmail.com"
+git add README.md
+git commit -m "Agrego README con datos del alumno"
+git push https://BryanVargas10@github.com/BryanVargas10/Recu_TP_AySO.git
+cd~R
+~~~cd ~Recu_TP_AySOpdw
+cd ~/Recu_TP_AySO
+vagrant ssh
+cd ~/Recu_TP_AySO
+PWD
+LS
+pwd
+cd ~/Recu_TP_AySO
+pwd
+ls
+cat README.md
+git config --global user.name "Bryan Tarazona"
+git config --global user.email "briantarazona10@gmail.com"
+git add README.md
+git commit -m "Agrego README con datos del alumno"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+git add Punto_A.sh
+git commit -m "Agrego Punto A"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+pwd
+cd ~/Recu_TP_AySO
+nano Punto_A.sh
+chmod +x Punto_A.sh
+./Punto_A.sh
+ls -R /datos
+git add Punto_A.sh
+git commit -m "Agrego Punto A"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+pwd
+cd ~/Recu_TP_AySO
+nano Punto_B.sh
+pwd
+cat Punto_B.sh
+cd ~/Recu_TP_AySO
+PWD
+pwd
+ls
+nano Punto_B.sh
+cat Punto_B.sh
+chmod +x Punto_B.sh
+./Punto_B.sh
+ls -l /datos
+sudo su - p1c1_2024_u1
+ls -l /datos
+cat /datos/validar1.txt
+pwd
+ls
+git add Punto_B.sh
+git commit -m "Agrego Punto B"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+pwd
+ls
+pwd
+sudo groupadd p1c1_2024_Todos
+sudo useradd -m -g p1c1_2024_Todos -s /bin/bash p1c1_2024_u2
+echo "p1c1_2024_u2:clave1" | sudo chpasswd
+sudo usermod -aG p1c1_2024_Todos p1c1_2024_u1
+sudo chown -R :p1c1_2024_todos /datos
+sudo chown -R :p1c1_2024_Todos /datos
+sudo chmod -R 770 /datos
+sudo setfacl -m u:vagrant:--x /datos
+sudo chmod 711 /datos
+sudo -u p1c1_2024_u2 bash -c 'id >> /datos/validar1.txt'
+pwd
+nano Punto_C.sh
+chmod +x Punto_C.sh
+./Punto_C.sh
+sudo -u p1c1_2024_u1 cat /datos/validar1.txt
+sudo -u p1c1_2024_u2 cat /datos/validar1.txt
+ls -ld /datos
+pwd
+ls
+git add Punto_C.sh
+git commit -m "ADD:Punto_C.sh"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+pwd
+cd ~Recu_TP_AySO
+cd ~/Recu_TP_AySO
+pwd
+ls
+cat Punto_D.sh
+nano Punto:D.sh
+cat Punto_D.sh
+cat Punto:D.sh
+mv "Punto:D.sh" Punto_D.sh
+ls -l
+cat Punto_D.sh
+nano Punto_D.sh
+hmod +x Punto_D.sh
+./Punto_D.sh
+tree ~/Ejercicio_D/ --noreport | pr -T -s´ ´ -w 80 --column 4
+tree ~/Ejercicio_D/ --noreport | pr -T -s' ' -w 80 --column 4
+[200~sudo apt update
+sudo apt install tree -y
+mkdir -p ~/Ejercicio_D/{rx/{lotes_{1..20},extras_{1..100}},tx/lotes_{1..20}}
+tree ~/Ejercicio_D/ --noreport | pr -T -s' ' -w 80 --column 4
+which sudo
+sudo apt update sudo apt install tree -y
+sudo apt update
+sudo apt install tree -y
+find ~/Ejercicio_D
+ls -R ~/Ejercicio_D
+cd ~/Recu_TP_AySO
+nano Punto_D.sh
+chmod +x Punto_D.sh
+./Punto_D.sh
+mkdir -p ~/Ejercicio_D/{rx/{lotes_{1..20},extras_{1..100}},tx/lotes_{1..20}}
+git add Punto_D.sh
+git commit -m "ADD:Punto_D.sh"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+pwd
+mkdir-p ~/Punto_E
+mkdir -p ~/Punto_E
+ls ~
+grep MemTotal /proc/meminfo > ~/Punto_E/Filtro_basico.txt
+cat ~/Punto_E/Filtro_basico.txt
+grep -m 1 "model name" /proc/cpuinfo >> ~/Punto_E/Filtro_basico.txt
+cat ~/Punto_E/Filtro_basico.txt
+nano ~/Recu_TP_AySO/Punto_E.sh
+chmod +x ~/Recu_TP_AySO/Punto_E.sh
+~/Recu_TP_AySO/Punto_E.sh
+cat ~/Punto_E/Filtro_basico.txt
+git add Punto_E.sh
+git commit -m "ADD:Punto_E.sh"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+pwd
+kdir ~/Punto_F
+pwd
+mkdir ~/Punto_F
+exit
+ls -R ~/Ejercicio_D | less
+pwd
+ls
+pwd
+mkdir -p Punto_F
+cat > Punto_F/Punto_F.sh
+pwd
+cd ~/Recu_TP_AySO
+pwd
+ls
+mkdir -p Punto_F
+cat > Punto_F/Punto_F.sh
+chmod +x Punto_F/Punto_F.sh
+cat Punto_F/Filtro_Avanzado.txt
+cat ~/Punto_F/Filtro_Avanzado.txt
+chmod +x Punto_F/Punto_F.sh
+./Punto_F/Punto_F.sh
+cat Punto_F/Filtro_Avanzado.txt
+cat > Punto_F/Punto_F.sh
+chmod +x Punto_F/Punto_F.sh
+./Punto_F/Punto_F.sh
+cat Punto_F/Filtro_Avanzado.txt
+pwd
+git add Punto_F/Punto_F.sh
+git add Punto_F/Filtro_Avanzado.txt
+git commit -m "ADD:Punto_F.sh"
+git push https://github.com/BryanVargas10/Recu_TP_AySO.git main
+pwd
+history -a
