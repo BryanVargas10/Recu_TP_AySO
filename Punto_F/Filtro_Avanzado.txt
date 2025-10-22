@@ -1,0 +1,2 @@
+Mi ip publica es: 200.61.172.164
+CPU Modelo: Celeron(R) Frecuencia: 1.10GHz
